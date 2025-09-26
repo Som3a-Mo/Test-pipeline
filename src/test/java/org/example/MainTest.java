@@ -5,6 +5,6 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MainTest {
     @Test
     void testMessage() {
-        assertEquals("Hello, GitHub Actions!", App.message());
+        assertEquals("Hello, GitHub Actions!", Main.message());
     }
 }
